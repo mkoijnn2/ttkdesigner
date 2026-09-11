@@ -110,7 +110,8 @@ you may not:
 
 The Software includes an AI design assistant. It does not provide AI models.
 It sends your request, and the current canvas content used as context, to
-whichever AI service you configure in the Software.
+whichever AI service you select in the Software, including the built-in
+presets, which point at third-party endpoints.
 
 You are responsible for that configuration. You supply your own API
 credentials, you choose the endpoint, and your use of that service is governed

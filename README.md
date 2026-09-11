@@ -114,7 +114,7 @@ The trial is free. Full-version activation is sold as time-limited cards, in CNY
 
 - **The application UI is in Simplified Chinese.** Exported Python code is standard English-language Python.
 - **The binary is not code-signed.** Windows SmartScreen may warn on first launch; choose *More info* then *Run anyway*.
-- **AI features need your own API key.** Canvas content is sent to the provider you configure. See [LICENSE](LICENSE) section 6.
+- **AI features send your canvas to a third party.** You supply your own API key. The built-in presets (DeepSeek, Qwen, Doubao, Agnes) are pre-configured third-party endpoints, so choosing one sends your prompt and canvas content to that provider. See [LICENSE](LICENSE) section 6.
 
 ## Community and support
 
@@ -232,7 +232,7 @@ python design.py
 
 - **软件界面为简体中文**，导出的 Python 代码为通用英文 Python
 - **未做代码签名**，首次运行可能遇到 Windows SmartScreen 提示，选择“更多信息”→“仍要运行”
-- **AI 功能需要你自己的 API Key**，画布内容会发送给你配置的服务商，详见 [LICENSE](LICENSE) 第六条
+- **AI 功能会把画布内容发送给第三方**，需要你自己的 API Key。内置预设（DeepSeek、通义千问、豆包、Agnes）指向的都是第三方端点，选中任一预设即表示你的提问与画布内容会发往该服务商，详见 [LICENSE](LICENSE) 第六条
 
 ### 联系与支持
 

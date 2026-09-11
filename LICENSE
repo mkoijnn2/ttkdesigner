@@ -1,0 +1,321 @@
+Ttkdesigner (TTKBootstrap设计大师) — Commercial License
+========================================================
+
+Copyright (c) 2025-2026 风行者 (Weng Jianhua). All rights reserved.
+
+This is a proprietary, commercial license. It is NOT an open source license.
+It is written in English and Chinese. Where the two versions differ in
+interpretation, the Chinese version (中文版) governs.
+
+
+1. WHAT THIS COVERS
+-------------------
+
+"Software" means the Ttkdesigner desktop application, including the
+Ttkdesigner.exe launcher, the compiled application data (data/ directory,
+app.so, and platform libraries), bundled assets, and any accompanying
+documentation distributed with it.
+
+"Trial Build" means any distribution marked as 体验版 / Trial.
+"Full Version" means any distribution marked as 正式版 / Full.
+
+This repository (github.com/ttkdesigner/ttkdesigner) hosts documentation,
+screenshots, and release binaries only. It does not contain the Software's
+source code, and nothing in this license grants any right to that source code.
+
+
+2. TRIAL BUILD — WHAT YOU MAY DO
+--------------------------------
+
+The Trial Build is free of charge. There is no time limit, no registration,
+and no activation requirement.
+
+You may, free of charge:
+
+  a) Download, install, and run the Trial Build on any number of computers
+     that you own or control.
+  b) Use the Trial Build for personal, educational, or commercial evaluation
+     purposes.
+  c) Redistribute the Trial Build unmodified and complete, as published by
+     the author, including this license file. You may not alter the archive,
+     add or remove files, or repackage it, and you may not charge a fee for
+     it or present it as your own work.
+  d) Use, modify, publish, and sell any Python source code that you generate
+     with the Software. See section 4.
+
+You may not:
+
+  e) Use features that the Trial Build does not provide. Attempting to unlock,
+     bypass, or work around restricted features is a breach of this license.
+  f) Modify, rebrand, or remove or alter any copyright, version, or branding
+     notice the Trial Build contains.
+
+All restricted features are identified in the user interface. Restricting them
+is intentional; this license does not grant access to them.
+
+
+3. FULL VERSION
+---------------
+
+The Full Version requires a valid purchase and a license key or machine-bound
+activation. It is licensed, not sold.
+
+Subject to payment, you receive a non-exclusive, non-transferable license to
+install and use the Full Version on the number of computers permitted by your
+purchase, for as long as you comply with this license.
+
+You may not share, resell, sublicense, publish, or otherwise transfer a
+license key or an activated copy to any third party. Circumventing activation
+or machine-binding is a breach of this license.
+
+
+4. OWNERSHIP OF GENERATED CODE
+------------------------------
+
+You own the Python code that you generate with the Software. The author of the
+Software claims no copyright, no royalty, and no other interest in it.
+
+You may use generated code for any purpose, including commercial and
+closed-source products, and you may license or sell it on any terms you
+choose. No attribution to Ttkdesigner is required in generated code.
+
+This grant covers the code you produce. It does not cover the Software's
+code-generation engine, component library, or AI integration, and it does not
+permit using generated output at scale to train, fine-tune, benchmark, or
+otherwise build a competing code-generation product. See section 5(b).
+
+Generated code depends on ttkbootstrap, which is distributed separately under
+its own license. Your use of ttkbootstrap is governed by that license, not by
+this one.
+
+
+5. RESTRICTIONS ON THE SOFTWARE ITSELF
+--------------------------------------
+
+Except to the extent that such restriction is prohibited by applicable law,
+you may not:
+
+  a) Reverse engineer, decompile, disassemble, or otherwise attempt to derive
+     the source code, underlying algorithms, or internal data formats of the
+     Software.
+  b) Extract, repackage, or reuse the Software's code-generation engine,
+     component library, or AI integration in another product.
+  c) Circumvent, disable, or interfere with licensing, activation, or
+     restricted-feature mechanisms.
+  d) Remove, obscure, or alter any proprietary notice.
+
+
+6. AI FEATURES, YOUR DATA, AND THIRD-PARTY SERVICES
+---------------------------------------------------
+
+The Software includes an AI design assistant. It does not provide AI models.
+It sends your request, and the current canvas content used as context, to
+whichever AI service you configure in the Software.
+
+You are responsible for that configuration. You supply your own API
+credentials, you choose the endpoint, and your use of that service is governed
+by that provider's own terms and privacy policy, not by this license.
+
+The author of the Software:
+
+  a) Does not operate, control, or endorse any third-party AI service that the
+     Software can be configured to use, including any relay or gateway service
+     suggested in the interface. Any such suggestion is informational only.
+  b) Does not receive, store, or have access to the content you send to a
+     third-party AI service, or to the credentials you configure.
+  c) Makes no representation about the accuracy, legality, availability, cost,
+     or data practices of any third-party AI service.
+
+Do not send content to a third-party AI service that you are not permitted to
+disclose. If you work with confidential material, review your provider's data
+retention terms before using the AI features.
+
+
+7. THIRD-PARTY COMPONENTS
+-------------------------
+
+The Software includes or depends on third-party components distributed under
+their own licenses, including:
+
+  - Flutter and the Dart runtime (BSD 3-Clause)
+  - ttkbootstrap (MIT) — required by the Python code the Software generates
+  - PyInstaller (GPL with a special exception) and PyArmor — used by the
+    export-to-executable feature
+  - Various Flutter plugins, each under its own license
+
+A full list of bundled components and their notices ships with the Software
+(see the NOTICES file in the application data directory). Those licenses
+govern their respective components. Nothing in this license restricts rights
+you may have under them.
+
+
+8. NO WARRANTY
+--------------
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+The author does not warrant that the Software will be uninterrupted or error
+free. The author does not warrant the correctness, safety, security, or legal
+compliance of any code the Software generates, whether by its code-generation
+engine or by its AI features. You are responsible for reviewing, testing, and
+securing any code you generate before you rely on it or ship it.
+
+
+9. LIMITATION OF LIABILITY
+--------------------------
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE
+AUTHOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES, INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS, LOSS OF
+DATA, OR BUSINESS INTERRUPTION, ARISING OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR ITS USE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+For the Trial Build, which is provided free of charge, the author's total
+aggregate liability is limited to the maximum extent permitted by law.
+
+For the Full Version, the author's total aggregate liability is limited to the
+amount you actually paid for the Software.
+
+Nothing in this section excludes liability that cannot be excluded under
+applicable law, including liability for death or personal injury caused by
+negligence, or for wilful misconduct or gross negligence.
+
+
+10. GOVERNING LAW AND JURISDICTION
+----------------------------------
+
+This license is governed by the laws of the People's Republic of China. The
+parties submit to the exclusive jurisdiction of the courts at the author's
+place of domicile for any dispute arising out of or in connection with this
+license or the Software.
+
+If you acquired the Software as a consumer, this does not deprive you of the
+protection of mandatory provisions of the law of your country of residence.
+
+
+11. TERMINATION
+---------------
+
+This license terminates automatically if you breach any of its terms. On
+termination you must stop using the Software and delete all copies. Sections
+4, 8, 9, and 10 survive termination.
+
+
+12. CONTACT
+-----------
+
+  Purchase page:  http://122.152.227.49/ttkping/
+  Gitee mirror:   https://gitee.com/wengjianhua/ttkboot---design-master
+  Support group:  QQ 951416878
+
+
+================================================================================
+中文版
+================================================================================
+
+Ttkdesigner（TTKBootstrap设计大师）商业授权协议
+版权所有 (c) 2025-2026 风行者。保留所有权利。
+
+本协议为专有商业授权，**不是**开源协议。中英文不一致时，以中文版为准。
+
+一、适用范围
+  本协议适用于 Ttkdesigner 桌面应用，包括 Ttkdesigner.exe 启动器、编译后的
+  应用数据（data/ 目录、app.so 及平台库）、随附资源与文档。
+  本仓库仅托管文档、截图与发行版二进制，不含应用源代码，本协议不授予任何
+  源代码相关权利。
+
+二、体验版：你可以做什么
+  体验版免费，无时间限制、无需注册、无需激活。你可以：
+    a) 在你拥有或控制的任意台电脑上下载、安装、运行体验版；
+    b) 用于个人、教育或商业评估目的；
+    c) 原样、完整地再分发作者发布的体验版（须附带本协议）。你不得改动压缩包
+       内容、增删文件或重新打包，不得收取任何费用，也不得宣称其为你的作品；
+    d) 使用、修改、发布、出售你用本软件生成的 Python 代码（见第四条）。
+
+  你不可以：
+    e) 使用体验版未提供的功能。尝试解锁、绕过或规避受限功能，即构成违约；
+    f) 修改、更换品牌，或删除、篡改任何版权、版本、标识信息。
+
+  受限功能在界面中均有明确标识，其限制是有意为之，本协议不授予访问权限。
+
+三、完整版
+  完整版需付费购买，并需卡密或机器绑定激活。完整版授予而非出售。
+  在付费且遵守本协议的前提下，你获得非独占、不可转让的许可，可在购买所允许
+  的电脑数量上安装和使用完整版。
+  你不得分享、转售、再授权、公开或以其他方式将卡密或已激活副本转让给第三方。
+  规避激活或机器绑定即构成违约。
+
+四、生成代码的归属
+  你用本软件生成的 Python 代码归你所有。软件作者不对其主张任何版权、版税或
+  其他权益。
+  你可以将生成代码用于任何目的，包括商业与闭源产品，并可按你选择的条款授权
+  或出售。生成代码中无需标注 Ttkdesigner。
+  本授权仅覆盖你产出的代码，不覆盖本软件的代码生成引擎、组件库与 AI 集成，
+  也不允许以规模化方式使用生成结果去训练、微调、评测或构建竞争性的代码生成
+  产品（见第五条第 b 款）。
+  生成代码依赖 ttkbootstrap，其授权由 ttkbootstrap 自身协议约束，不受本协议约束。
+
+五、对软件本身的限制
+  除适用法律禁止此类限制的情形外，你不得：
+    a) 反向工程、反编译、反汇编，或以其他方式试图推导软件的源代码、底层算法
+       或内部数据格式；
+    b) 提取、重新打包或将软件的代码生成引擎、组件库、AI 集成用于其他产品；
+    c) 规避、禁用或干扰授权、激活或功能限制机制；
+    d) 删除、遮蔽或篡改任何专有标识。
+
+六、AI 功能、你的数据与第三方服务
+  本软件包含 AI 设计助手，但不自带 AI 模型。它会把你的请求，以及作为上下文
+  的当前画布内容，发送到你在软件中配置的 AI 服务商。
+  该配置由你负责：你提供自己的 API 凭据、你选择服务地址，你对服务商的使用受
+  该服务商自身的条款与隐私政策约束，不受本协议约束。
+
+  软件作者：
+    a) 不运营、不控制、也不为软件可配置的任何第三方 AI 服务背书，包括界面中
+       提示的任何中转或网关服务；此类提示仅供参考；
+    b) 不接收、不存储、也无法访问你发送给第三方 AI 服务的内容，或你配置的凭据；
+    c) 不对任何第三方 AI 服务的准确性、合法性、可用性、费用或数据处理实践作出
+       任何陈述。
+
+  请勿发送你不被允许披露的内容。若你处理机密材料，请在使用 AI 功能前先查阅
+  服务商的数据留存条款。
+
+七、第三方组件
+  本软件包含或依赖若干按自有协议分发的第三方组件，包括：
+    - Flutter 与 Dart 运行时（BSD 3-Clause）
+    - ttkbootstrap（MIT）—— 生成的 Python 代码需要它
+    - PyInstaller（GPL 附加例外条款）与 PyArmor —— 供打包为 exe 功能使用
+    - 各 Flutter 插件，各自适用其自身协议
+  完整组件清单与声明随软件分发（见应用数据目录中的 NOTICES 文件）。相应组件
+  由其自身协议管辖，本协议不限制你在这些协议下可能享有的权利。
+
+八、免责声明
+  本软件按现状提供，不附带任何明示或默示担保，包括但不限于对适销性、特定用途
+  适用性及不侵权的担保。
+  作者不保证软件无中断、无错误，也不保证软件生成的任何代码（无论由代码生成
+  引擎还是 AI 功能产出）在正确性、安全性、防护性与法律合规性上没有问题。
+  你有责任在依赖或交付任何生成代码之前自行审查、测试与加固。
+
+九、责任限制
+  在适用法律允许的最大范围内，作者不对因本软件或其使用而产生的任何间接、
+  附带、特殊、惩罚性或后果性损害负责，包括但不限于利润损失、数据丢失或业务
+  中断，即使已被告知此类损害的可能性。
+  体验版系免费提供，其责任在适用法律允许的最大范围内予以限制。
+  完整版的责任，以你实际支付的软件价款为限。
+  本条不排除适用法律下不可排除的责任，包括因过失造成人身损害的责任，以及
+  故意或重大过失的责任。
+
+十、适用法律与管辖
+  本协议适用中华人民共和国法律。因本协议或本软件产生的争议，双方提交作者
+  住所地法院专属管辖。
+  若你以消费者身份取得本软件，本条不影响你住所地法律中强制性规定对你的保护。
+
+十一、终止
+  你若违反本协议任何条款，本协议自动终止。终止后你必须停止使用本软件并删除
+  所有副本。第四、八、九、十条在终止后继续有效。
+
+十二、联系方式
+  购买页：http://122.152.227.49/ttkping/
+  Gitee 镜像：https://gitee.com/wengjianhua/ttkboot---design-master
+  交流群：QQ 951416878

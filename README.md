@@ -108,7 +108,23 @@ The trial is free. Full-version activation is sold as time-limited cards, in CNY
 
 - **Windows 10 / 11 (64-bit)**
 - **Python 3.7+** — only needed to run the code you export, not the designer itself
-- **ttkbootstrap 1.20.3** for generated programs; other versions may differ in API
+- **ttkbootstrap 1.20.3 or newer** for generated programs — see [Verified compatibility](#verified-compatibility) below
+
+### Verified compatibility
+
+The code this tool exports does not lock you to a single ttkbootstrap version. We tested the exported output against two versions:
+
+| ttkbootstrap | Exported code runs | Notes |
+|---|:---:|---|
+| **1.20.3** | ✅ | The pinned version in `requirements.txt` |
+| **2.2.2** | ✅ | Current release, including the 2.0 API overhaul |
+
+The test covers every construct the exporter emits — the import forms, the `ttk.Window` subclass, each `bootstyle` value it produces, the `style.configure` class names, and the extra widgets (`Tableview`, `ToolTip`, `ScrolledText`, `Meter`, `DateEntry`, `Floodgauge`). It runs on real Python with a real Tk, not eyeballed.
+
+Two notes so nothing surprises you:
+
+- The 2.x releases print a deprecation warning for the legacy `cosmo` theme name. It works today, but a future ttkbootstrap major version may drop it. If you hit that, change `themename="cosmo"` to a current theme such as `"bootstrap-light"`.
+- The 1.x spellings `striped` and `inverse` are accepted but ignored on 2.x: no error, yet the look differs. The exporter does not emit either.
 
 ### Known limitations
 
@@ -226,7 +242,23 @@ python design.py
 
 - Windows 10 / 11（64 位）
 - Python 3.7+（仅运行导出的代码时需要，设计器本身不需要）
-- ttkbootstrap 1.20.3
+- ttkbootstrap 1.20.3 或更新版本，详见下方“版本兼容性实测”
+
+#### 版本兼容性实测
+
+本工具导出的代码不锁死单一 ttkbootstrap 版本。我们对导出结果做了两个版本的实测：
+
+| ttkbootstrap | 导出代码可运行 | 说明 |
+|---|:---:|---|
+| **1.20.3** | ✅ | `requirements.txt` 中钉死的版本 |
+| **2.2.2** | ✅ | 当前最新版，含 2.0 API 重构 |
+
+测试覆盖导出器会产出的全部写法：导入形式、`ttk.Window` 子类、它生成的每一个 `bootstyle` 值、`style.configure` 类名，以及额外组件（`Tableview`、`ToolTip`、`ScrolledText`、`Meter`、`DateEntry`、`Floodgauge`）。测试在真实 Python 加真实 Tk 上运行，不是目测。
+
+两点提前说明，免得你踩到：
+
+- 2.x 版本会对 legacy 主题名 `cosmo` 输出一条弃用警告。它当前可用，但未来某个 ttkbootstrap 大版本可能移除。真遇到时，把 `themename="cosmo"` 换成当前主题（如 `"bootstrap-light"`）即可。
+- 1.x 的 `striped` 与 `inverse` 写法在 2.x 上会被接受但忽略：不报错，但外观不同。导出器不会产出这两种写法。
 
 ### 已知限制
 
